@@ -1,0 +1,20 @@
+ /*background color of whole page*/
+ html{
+ 	background-color: white;  
+ }
+ body{
+ 	background-color: #ede6e6; /*refer to w3 skool color picker and get the hex no */
+    margin:0 auto;/* top bottom is zero, from left right is auto,to keep the contant in middle*/
+    width: 960px;
+    font-family: arial, helvetica, sans-serif;
+ }
+ /* styling the links*/
+ a{
+ 	text-decoration: none; /* remove the underlines*/
+ 	color: #373535;
+ }
+/* HEADER */
+header{
+	height: 150px;
+	padding-top: 20px;
+}
