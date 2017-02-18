@@ -137,4 +137,27 @@ form{
 	
 
 }
+div li:first-child {
+	border-right: 1px solid #373535;
+}
+/*div li:second-child {
+	border-right: 1px solid #373535;
+}
+div li:third-child {
+	border-right: 1px solid #373535;
+}
+this way is not allowed only subclass is firstchild and lastchild*/
+.lower{
+	background-color: #e5e0e0;
+	height: 100px;
+	padding-top:30px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.lower li{
+	font-size: 14px;
+	border-right: 1px solid #373535;
+}
+div li:last-child{
+	border-right: none;
 }
